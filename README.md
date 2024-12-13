@@ -1,5 +1,5 @@
 # Lua-Expander
-Here’s a Lua script that reads a file, searches for lines containing dofile('file.lua'), and replaces them with the content of the referenced file(s). 
+Here’s a Lua script that reads a file, searches for lines containing `dofile('file.lua')`, and replaces them with the content of the referenced file(s). 
 The process is *recursive*, meaning it will also handle dofile calls within the included files.
 
 
